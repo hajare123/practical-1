@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>registration page</title>
+</head>
+<body>
+    <center><h1>User Registration page for job</h1> <hr>
+
+    <form action="" method="get">
+        <table align="center" border="2">
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" name="username" placeholder="Enter your name"><br> <br></td>
+            <tr>
+            <tr>
+                <td><label for="username">Address:</label></td>
+                <td><textarea name="address" rows="5" cols="20">enter your address</textarea><br> <br></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                     <input type="radio" id="male" name="gender" value="Male" >
+                     <label for="male">Male</label>
+                     <input type="radio" id="female" name="gender" value="Female" >
+                     <label for="female">Female</label>
+                     <input type="radio" id="other" name="gender" value="Other" >
+                     <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Skills:</td>
+                <td>
+                    <input type="checkbox" id="python" name="python" >
+                    <label for="python">Python</label>
+                    <input type="checkbox" id="HTML" name="html" >
+                    <label for="female">Female</label>
+                    <input type="checkbox" id="DS"name="ds" >
+                    <label for="ds">DS</label>
+                    <input type="checkbox" id="DA"name="da" >
+                    <label for="da">DA</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="india">INDIA</option>
+                        <option value="us">US</option>
+                        <option value="france" selected>France</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
